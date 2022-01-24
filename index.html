@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./app.js" defer></script>
+    <title>Flash Card Generator</title>
+  </head>
+  <body>
+    <main>
+      <h1>Welcome to the Flash Card Generator!</h1>
+
+      <label for="maths">Which type of math would you like to do today?</label>
+      <select name="maths" id="maths">
+        <option value="add">Addition</option>
+        <option value="subtract">Subtraction</option>
+        <option value="multiply">Multiplication</option>
+        <option value="divide">Division</option>
+      </select>
+
+      <div class="flash-card">
+        <div class="left-number">1</div>
+        <div class="operator">+</div>
+        <div class="right-number">2</div>
+        <div class="equal">=</div>
+        <input type="text" id="answer" />
+        <button class="submit" id="submit">Submit</button>
+      </div>
+    </main>
+  </body>
+</html>
