@@ -9,7 +9,7 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: stretch;
+  justify-content: space-between;
   align-items: center;
   background: #0077b6;
   gap: 2rem;
@@ -35,13 +35,6 @@ body {
 
 h1 {
   font-size: 3rem;
-}
-
-#answer {
-  width: 6rem;
-  text-align: center;
-  border: none;
-  background: #caf0f8;
 }
 
 button {
